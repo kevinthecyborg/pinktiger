@@ -1,0 +1,80 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+// NAVBAR
+
+.navbar-light.bg-cream {
+  backgorund-color: #FFF5EE;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+// BUTTONS
+
+.btn-primary {
+  &.glow {
+    box-shadow: 0px 0px 40px 0px rgba(255,40,133,0.5) !important;
+  }
+}
+
+.btn-primary-soft {
+  background-color: rgba(255, 40, 133, 0.1);
+  color: #FF288F;
+
+  &:hover {
+    background-color: rgba(255, 40, 133, 0.15);
+    color: #FF288F;
+  }
+}
+
+.badge.bg-primary-soft {
+  background-color: rgba(255, 40, 133, 0.1);
+  color: #FF288F;
+}
+
+// TYPOGRAPHY
+
+.text-muted {
+  color: #998F94 !important;
+}
+
+.text-gray-700 {
+  color: #90507E !important;
+}
+
+.text-light {
+  color: #FFFAF7 !important;
+}
+
+.text-primary-2 {
+  color: #FFF5EE;
+}
+
+// FORMS
+.form-control:focus {
+  border-color: #FF288F;
+}
+
+// BACKGROUNDS
+
+.bg-gradient-light-white {
+  background-image: linear-gradient(to bottom, #FFFAF7 0%, #FFFFFF 100%);
+}
+
+.bg-light {
+  background-color: #FFFAF7 !important;
+}
+
+.flickity-prev-next-button {
+  background-color: #FFE5EB;
+  color: #FF288F;
+
+  &:hover {
+    background-color: #FFE5EB;
+    color: #FF288F;
+  }
+}
