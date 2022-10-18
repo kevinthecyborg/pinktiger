@@ -79,9 +79,13 @@
   }
 }
 
-// IMAGES
-.hero-image-mobile {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
+// RESPONSIVE
+
+// MOBILE
+@media (max-width: 480px) {
+  .hero-image-mobile {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 }
