@@ -13,6 +13,10 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,40,133,0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 // BUTTONS
 
 .btn-primary {
@@ -46,12 +50,28 @@
   color: #90507E !important;
 }
 
+.text-gray-700-muted {
+  color: rgba(144,80,126,0.6) !important;
+}
+
 .text-light {
   color: #FFFAF7 !important;
 }
 
 .text-primary-2 {
   color: #FFF5EE;
+}
+
+.text-primary.underline {
+  border-bottom: 3px solid rgba(255, 40, 133, 0.2);
+}
+
+.text-success.underline {
+  border-bottom: 3px solid rgba(66, 186, 150, 0.2);
+}
+
+.text-primary-desat {
+  color: rgba(255, 40, 133, 0.4) !important;
 }
 
 // FORMS
@@ -82,6 +102,11 @@
 hr.hr-primary-soft {
   color: #FFE2E4;
 }
+
+.border-soft {
+  border-color: #FFE2E4 !important;
+}
+
 
 // RESPONSIVE
 

@@ -8,9 +8,6 @@
     <!-- NAVBAR -->
     {{> partials/navbar classList="navbar-light bg-cream" container="container" button="primary"}}
 
-    <!-- FORM MODAL -->
-    {{> partials/modal-application-form}}
-
     <!-- WELCOME -->
     <section class="pt-4 pt-md-11">
       <div class="container">
@@ -26,12 +23,12 @@
             <!-- Heading -->
             <h1 class="display-3 text-center text-md-start">
               You make <span class="text-primary">content</span>,<br>
-              we make you <span class="text-primary">money</span>.
+              we make you <span class="text-primary underline">money</span>.
             </h1>
 
             <!-- Text -->
             <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-              Join the 1% management agency for OnlyFans content creators and maximize your earnings.
+              Join the <span class="text-gray-700">1%</span> management agency for OnlyFans creators and <span class="text-gray-700">maximize your earnings</span>.
             </p>
 
             <!-- Buttons -->
@@ -39,7 +36,7 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo5rJtUKag73gIElSBdp0nuRTQOIEtmt7sufOdMtLzoXn17g/viewform" class="btn btn-primary glow shadow lift me-1" target="_blank">
                 Apply Now <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
               </a>
-              <a href="#features" class="btn btn-primary-soft lift" data-scroll='{"offset": 0}'>
+              <a href="#about" class="btn btn-primary-soft lift" data-scroll='{"offset": 0}'>
                 Learn More
               </a>
             </div>
@@ -71,7 +68,7 @@
             </p>
 
           </div>
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
@@ -89,7 +86,7 @@
             </p>
 
           </div>
-          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
@@ -119,7 +116,7 @@
     </div>
 
     <!-- ABOUT -->
-    <section class="pt-8 pt-md-11 bg-light">
+    <section class="pt-8 pt-md-11 bg-light" id="about">
       <div class="container">
 
         <div class="row align-items-center">
@@ -262,18 +259,13 @@
 
                   <!-- Slider -->
                   <div class="card-img-slider" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#blogSlider", "draggable": false}'>
-                    <a class="card-img-start w-100 bg-cover" style="background-image: url(assets/img/photos/testimonial-cindy.jpg);" href="#!">
 
-                      <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/testimonial-cindy.jpg" alt="..." class="img-fluid d-md-none invisible">
+                    <a class="card-img-start w-100 bg-cover" style="background-image: url(assets/img/photos/testimonial-s.jpg);" href="{{webRoot}}/case-study-s.html"></a>
 
-                    </a>
-                    <a class="card-img-start w-100 bg-cover" style="background-image: url(assets/img/photos/testimonial-rachel.jpg);" href="#!">
+                    <a class="card-img-start w-100 bg-cover" style="background-image: url(assets/img/photos/testimonial-m.jpg);" href="{{webRoot}}/case-study-m.html"></a>
 
-                      <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/testimonial-rachel.jpg" alt="..." class="img-fluid d-md-none invisible">
+                    <a class="card-img-start w-100 bg-cover" style="background-image: url(assets/img/photos/testimonial-l.jpg);" href="{{webRoot}}/case-study-l.html"></a>
 
-                    </a>
                   </div>
 
                   <!-- Shape -->
@@ -286,9 +278,10 @@
 
                   <!-- Slider -->
                   <div class="position-md-static" data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true}' id="blogSlider">
+
                     <div class="w-100">
 
-                      <!-- Body -->
+                      <!-- Body S -->
                       <div class="card-body">
                         <blockquote class="blockquote text-center mb-0">
 
@@ -306,21 +299,22 @@
 
                           <!-- Text -->
                           <p class="mb-5 mb-md-7">
-                            “PinkTiger was exactly what I needed in order to scale up my OF and IG account. They managed everything for me and it allowed me to focus on other aspects of my life while earning more.”
+                            "If you're having trouble hitting the top 1% on OF, then look no further than PinkTiger. They got me to top 1% within the first week!"
                           </p>
 
                           <!-- Footer -->
                           <footer class="blockquote-footer">
-                            <span class="h6 text-uppercase">Cindy</span>
+                            <a href="{{webRoot}}/case-study-s.html" class="h6 text-uppercase">View Case Study</a>
                           </footer>
 
                         </blockquote>
                       </div>
 
                     </div>
+
                     <div class="w-100">
 
-                      <!-- Body -->
+                      <!-- Body M -->
                       <div class="card-body">
                         <blockquote class="blockquote text-center mb-0">
 
@@ -338,18 +332,52 @@
 
                           <!-- Text -->
                           <p class="mb-5 mb-md-7">
-                            “If you're having trouble hitting the top % on OF, then look no further than PinkTiger. They got me to top 2% within the first 4 months!”
+                            “PinkTiger was exactly what I needed in order to scale up my OF and IG account. They managed everything for me and it allowed me to focus on other aspects of my life while earning more.”
                           </p>
 
                           <!-- Footer -->
                           <footer class="blockquote-footer">
-                            <span class="h6 text-uppercase">Rachel</span>
+                            <a href="{{webRoot}}/case-study-m.html" class="h6 text-uppercase">View Case Study</a>
                           </footer>
 
                         </blockquote>
                       </div>
 
                     </div>
+
+                    <div class="w-100">
+
+                      <!-- Body L -->
+                      <div class="card-body">
+                        <blockquote class="blockquote text-center mb-0">
+
+                          <!-- Brand -->
+                          <div class="row justify-content-center mb-5 mb-md-7">
+                            <div class="col-6 col-sm-4 col-md-7 col-lg-5">
+
+                              <!-- Logo -->
+                              <div class="img-fluid" style="color: #3F5D87;">
+                                {{> logotype/onlyfans}}
+                              </div>
+
+                            </div>
+                          </div> <!-- / .row -->
+
+                          <!-- Text -->
+                          <p class="mb-5 mb-md-7">
+                            "My prior agency did a great job at keeping my revenue over $100k per month, but I was still very involved in the day-to-day operations. After switching to PinkTiger, I'm now able to focus on what I love doing best – making content."
+                          </p>
+
+                          <!-- Footer -->
+                          <footer class="blockquote-footer">
+                            <a href="{{webRoot}}/case-study-l.html" class="h6 text-uppercase">View Case Study</a>
+                          </footer>
+
+                        </blockquote>
+                      </div>
+
+                    </div>
+
                   </div>
 
                 </div>
@@ -489,7 +517,7 @@
 
             <!-- Text -->
             <p class="fs-lg text-muted mb-6 mb-md-8">
-              We make it easy to be <span class="text-gray-700">successful</span> on OnlyFans. If you're ready to hit the top percentile, then <span class="text-gray-700">apply today</span> to see if we're a good fit.
+              We make it easy to be <span class="text-gray-700">successful</span> on OnlyFans. If you're ready to hit the <span class="text-gray-700">top percentile</span>, then <span class="text-gray-700">apply today</span> to see if we're a good fit.
             </p>
 
             <!-- Button -->
